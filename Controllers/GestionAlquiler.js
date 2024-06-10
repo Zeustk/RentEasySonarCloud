@@ -24,7 +24,6 @@ class ServicioAlquiler {
             const id_empleado = parseInt(Id_Empleados);
             const valorinicial = parseInt(Valor_Inicial);
             
-            const total = parseFloat(Total);
 
 
 
@@ -97,8 +96,6 @@ class ServicioAlquiler {
 
             fecha.setDate(fecha.getDate() + 1);
 
-            
-            const fechaFormateada = fecha.toISOString().slice(0, 19).replace("T", " ");
 
             if ((Pago_Inicial != 0) || (Pago_Inicial == 0)) {
 
