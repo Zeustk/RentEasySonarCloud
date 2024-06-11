@@ -252,7 +252,6 @@ class ServicioAlquiler {
 
         if (!regex.test(KmEmision)){
 
-            console.log('paso');
             return true;
 
         } //Si tiene letra
